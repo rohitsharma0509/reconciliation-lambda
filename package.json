@@ -1,0 +1,18 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "zip": "zip -r recon-lambda.zip package.json *.js node_modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.875.0",
+    "axios": "0.21.1",
+    "mailparser": "3.1.0",
+    "node-fetch": "^2.6.1",
+    "form-data": "4.0.0"
+  }
+}
